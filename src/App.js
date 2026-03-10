@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/headercomponent/Header';
+import Menu from './components/menucomponent/menu'; 
 
 function App() {
   return (
     <div id="maindiv">
-     <div id="header"> header section </div>
-     <div id="menu"> menu section </div>
-     <div id="content"> content section </div>
-     <div id="footer"> footer section </div>
+      <Header/>
+      <Menu/>
     </div>
   );
 }
