@@ -1,12 +1,15 @@
 import './menu.css';
+import{Link} from "react-router-dom"
 function menu(){
     return(
         <div id="menu">
-            <a href='#'>home</a>
-            <a href='#'>service</a>
-            <a href='#'>about</a>
-            <a href='#'>logout</a>
-        </div>
+            <Link to="/"> home</Link>
+            <Link to="/about">about</Link>
+            <Link to="/service">service</Link>
+            <Link to="/login">Login</Link>
+            r<Link to="/registor">registor</Link>
+            </div>
+            
     );
 }
 export default menu;
