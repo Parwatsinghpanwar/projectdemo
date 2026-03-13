@@ -7,6 +7,10 @@ function Home(){
   <div id= "home">
     <h1>this is a homepage of website</h1>
     <p>sum={c}</p>
+    <p>sum={a-b}</p>
+    <p>sum={a*b}</p>
+    <p>sum={a/b}</p>
+    <p>sum={a%b}</p>
   </div>  
  
     );
