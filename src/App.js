@@ -5,7 +5,7 @@ import Menu from './components/menucomponent/menu';
 import Content from './components/contentcomponet/content';
 import Footer from './components/footercomponent/footer';
 import Home from './components/homecomponent/home';
-import About from './components/aboutcomponent/about';
+import About from './components/aboutcomponent/About';
 import Service from './components/servicescomponent/service';
 import { Routes ,Route } from 'react-router-dom';
 import Login from './components/logincomponent/login';
