@@ -10,6 +10,7 @@ import Service from './components/servicescomponent/service';
 import { Routes ,Route } from 'react-router-dom';
 import Login from './components/logincomponent/login';
 import Registor from './components/Registorcomponent/resgistor';
+import Test from './components/testcomponents/Test';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path='/service' element={<Service/>}></Route>
           <Route path='/login' element={<Login/>}></Route>
           <Route path='/registor' element={<Registor/>}></Route>
+          <Route path='/test' element={<Test/>}></Route>
+          
         </Routes>
       </div>
       <Footer/>
