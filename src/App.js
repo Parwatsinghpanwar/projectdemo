@@ -13,6 +13,9 @@ import Registor from './components/Registorcomponent/resgistor';
 import Test from './components/testcomponents/Test';
 
 function App() {
+  function demo1(){
+
+  }
   return (
     <div id="maindiv">
       <Header/>
@@ -27,6 +30,7 @@ function App() {
           <Route path='/test' element={<Test/>}></Route>
           
         </Routes>
+        <Test alert={demo1}/>
       </div>
       <Footer/>
       

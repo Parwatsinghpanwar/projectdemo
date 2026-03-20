@@ -1,8 +1,9 @@
 #rg
 {
-    height: 300px;
+    height: 600px;
     width: 100%;
     text-align: center;
     background-color: aqua;
+    flex: auto;
     
 }
